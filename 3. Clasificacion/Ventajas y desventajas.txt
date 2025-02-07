@@ -1,0 +1,45 @@
+Modelos de Clasificación y sus Interpretaciones:
+Logistic Regression (Regresión Logística)
+
+Ventajas:
+Enfoque probabilístico, proporciona información sobre la significancia estadística de las características.
+Desventajas:
+Depende de supuestos específicos de la regresión logística.
+K-Nearest Neighbors (K-NN)
+
+Ventajas:
+Simple de entender, rápido y eficiente.
+Desventajas:
+Se debe elegir el número de vecinos 
+𝑘
+k.
+Support Vector Machines (SVM)
+
+Ventajas:
+Desempeño sólido, no se ve afectado por valores atípicos, no sensible al sobreajuste.
+Desventajas:
+No adecuado para problemas no lineales, ni para conjuntos de datos con muchas características.
+Kernel SVM (SVM con Kernel)
+
+Ventajas:
+Buen rendimiento en problemas no lineales, no afectado por valores atípicos, no sensible al sobreajuste.
+Desventajas:
+No es la mejor opción para conjuntos de datos con muchas características, más complejo.
+Naive Bayes (Bayes Ingenuo)
+
+Ventajas:
+Eficiente, no afectado por valores atípicos, funciona en problemas no lineales, enfoque probabilístico.
+Desventajas:
+Asume que las características son estadísticamente independientes.
+Decision Tree Classification (Árbol de Decisión)
+
+Ventajas:
+Interpretabilidad, no requiere escalado de características, funciona en problemas lineales y no lineales.
+Desventajas:
+Puede dar malos resultados en conjuntos de datos pequeños, propenso al sobreajuste.
+Random Forest Classification (Bosque Aleatorio)
+
+Ventajas:
+Potente y preciso, buen rendimiento en muchos problemas, incluyendo problemas no lineales.
+Desventajas:
+Difícil de interpretar, propenso al sobreajuste, se debe elegir el número adecuado de árboles.
